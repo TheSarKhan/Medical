@@ -179,7 +179,7 @@ public class Display {
             scanner.nextLine();
 
             switch (choice) {
-                case 1 -> System.out.println("🔍 Viewing patient list...");
+                case 1 -> System.out.println("🔍 Viewing patient list...")  ;
                 case 2 -> System.out.println("📅 Managing appointments...");
                 case 3 -> {
                     System.out.println("👋 Logging out. Goodbye!");

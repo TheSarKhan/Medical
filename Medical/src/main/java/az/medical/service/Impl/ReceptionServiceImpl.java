@@ -1,6 +1,13 @@
-package az.medical.service.Impl;
+    package az.medical.service.Impl;
 
-import az.medical.service.ReceptionService;
+    import az.medical.model.Patient;
+    import az.medical.service.ReceptionService;
 
-public class ReceptionServiceImpl implements ReceptionService {
-}
+    import java.util.ArrayList;
+    import java.util.List;
+
+    public class ReceptionServiceImpl implements ReceptionService {
+        static List<Patient> patients = new ArrayList<>();
+
+
+    }
