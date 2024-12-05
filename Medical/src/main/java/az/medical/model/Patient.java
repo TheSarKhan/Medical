@@ -12,4 +12,10 @@ public class Patient {
     String password;
     String illness;
     String role;
+
+    public Patient(String name, String illness) {
+        this.name = name;
+        this.illness = illness;
+    }
+    public Patient() {}
 }
