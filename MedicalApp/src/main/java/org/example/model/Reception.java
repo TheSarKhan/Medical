@@ -11,11 +11,6 @@ public class Reception {
     String name;
     String password;
     String role;
-    public Reception(int id, String name, String password) {
-        this.id = id;
-        this.name = name;
-        this.password = password;
-        this.role = "admin";
-    }
+
     public Reception() {}
 }
